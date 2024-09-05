@@ -1,8 +1,6 @@
 body
 
-{
-     background-image:url(tlo.jpg)
-}
+
 
 {
     background-color: rgb(0, 0, 0);
@@ -24,4 +22,7 @@ b
 {
 
     font-family: 'Abril Fatface', cursive;
+}
+{
+     background-image:url(tlo.jpg)
 }
