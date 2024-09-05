@@ -1,9 +1,7 @@
 body
 
 {
-     content: url("tlo.jpg");
-     width: 400px;
-     border: 10px;
+     background-image:url(tlo.jpg)
 }
 
 {
