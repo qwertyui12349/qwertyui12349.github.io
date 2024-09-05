@@ -1,6 +1,12 @@
 body
 
 {
+     content: url("tlo.jpg");
+     width: 400px;
+     border: 10px;
+}
+
+{
     background-color: rgb(0, 0, 0);
     color: white;
     font-family: 'Abril Fatface', cursive;
