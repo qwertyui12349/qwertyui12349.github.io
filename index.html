@@ -11,7 +11,7 @@
 
 
 
-<style>/* Wideo jako tło */
+<style>
 #background-video {
   position: fixed;
   top: 50%;
@@ -22,19 +22,21 @@
   width: auto;
   height: auto;
   object-fit: cover;
-  z-index: -1;          /* wideo za treścią */
-  pointer-events: none; /* żeby nie blokowało kliknięć */
-  filter: brightness(60%); /* przyciemnia, by tekst był czytelny */
+  z-index: -1;         
+  pointer-events: none; 
+  filter: brightness(60%); 
 }
 
-/* upewniamy się, że treść jest nad wideo */
+
 body {
   position: relative;
   z-index: 1;
 }
 </style>
+</head>
 
 
+<body>
 <video id="background-video" autoplay muted loop playsinline preload="auto">
   <source src="snaptik_7501314526713842966_v2.mp4" type="video/mp4">
   Twoja przeglądarka nie obsługuje wideo.
@@ -73,7 +75,7 @@ Czym się będe zajmować, to jeszcze zobaczę, ale na razie wybieram się na ar
 
 
 
-<br><img src="https://i.redd.it/umwpz86tv5w71.png" alt="reddit.com" width="500" align="center"> </br>
+
 
 
 
