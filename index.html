@@ -9,6 +9,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 
+<video id="background-video" autoplay muted loop playsinline preload="auto">
+  <source src="snaptik_7501314526713842966_v2.mp4" type="video/mp4">
+  Twoja przeglądarka nie obsługuje wideo.
+</video>
+
+<style>/* Wideo jako tło */
+#background-video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  z-index: -1;          /* wideo za treścią */
+  pointer-events: none; /* żeby nie blokowało kliknięć */
+  filter: brightness(60%); /* przyciemnia, by tekst był czytelny */
+}
+
+/* upewniamy się, że treść jest nad wideo */
+body {
+  position: relative;
+  z-index: 1;
+}
+</style>
+
+
+
 <h2><p><b> CO POTRAFIĘ?? </p></b></h2>
 <p>KLASA 1</p>
 Poza wiedzą ze szkoły podstawowej nie robiłam nic szczególnego, więc moje 
